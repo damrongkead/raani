@@ -14,6 +14,6 @@ public class url_sta {
 	public static char randomSeriesForThreeCharacter() {
 	    Random r = new Random();
 	    char random_3_Char = (char) (48 + r.nextInt(47));
-	    return random_3_Char;
+	    return random_3_Char;//
 	}
 }
